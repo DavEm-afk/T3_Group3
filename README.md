@@ -38,12 +38,13 @@ Este proyecto está diseñado únicamente para fines académicos.
 El análisis activo requiere de la autorización del encargado del dominio a escanear. Ademas de su activación por medio del parámetro'--run-active', se necesita editar directamente los permisos dentro del codigo fuente 'main.py' para habilitar el escaneo activo.
 
 ## Documentación adicional
-- Evidencias de escaneo al dominio
-- Pruebas de autorización
+- [Evidencias del análisis](Evidencias/) – incluye reportes, captura de pantalla y ensayo
+- [Autorización para escaneo activo](Autorizacion/)
 
 ## Créditos
 Este proyecto fue desarrollado como parte de la unidad de aprendizaje Programación para Ciberseguridad, correspondiente al periodo académico de agosto-diciembre 2025.
 Integrantes del equipo:
 - Marcelo Hernández Chávez
 - David Emiliano Rangel Tovar
+
 
