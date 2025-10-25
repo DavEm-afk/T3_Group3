@@ -1,0 +1,398 @@
+{
+    "dns": {
+        "A": [
+            "185.199.109.153",
+            "185.199.108.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ],
+        "AAAA": [
+            "2606:50c0:8003::153",
+            "2606:50c0:8000::153",
+            "2606:50c0:8001::153",
+            "2606:50c0:8002::153"
+        ],
+        "MX": "Error: The DNS response does not contain an answer to the question: josefmcg12.github.io. IN MX",
+        "NS": "Error: The DNS response does not contain an answer to the question: josefmcg12.github.io. IN NS",
+        "TXT": "Error: The DNS response does not contain an answer to the question: josefmcg12.github.io. IN TXT"
+    },
+    "whois": {
+        "error": "module 'whois' has no attribute 'whois'"
+    },
+    "shodan": {
+        "ip": "185.199.111.153",
+        "organization": "GitHub, Inc.",
+        "os": null,
+        "ports": [
+            80,
+            443
+        ],
+        "data": [
+            {
+                "hash": 964767796,
+                "asn": "AS54113",
+                "http": {
+                    "status": 404,
+                    "robots_hash": null,
+                    "redirects": [],
+                    "title_hash": -14312009,
+                    "securitytxt": null,
+                    "title": "Site not found &middot; GitHub Pages",
+                    "sitemap_hash": null,
+                    "waf": "Fastly (Fastly CDN)",
+                    "robots": null,
+                    "dom_hash": 1042758530,
+                    "headers_hash": 72900919,
+                    "host": "185.199.111.153",
+                    "html": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\">\n    <meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'\">\n    <title>Site not found &middot; GitHub Pages</title>\n    <style type=\"text/css\" media=\"screen\">\n      body {\n        background-color: #f1f1f1;\n        margin: 0;\n        font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n      }\n\n      .container { margin: 50px auto 40px auto; width: 600px; text-align: center; }\n\n      a { color: #4183c4; text-decoration: none; }\n      a:hover { text-decoration: underline; }\n\n      h1 { width: 800px; position:relative; left: -100px; letter-spacing: -1px; line-height: 60px; font-size: 60px; font-weight: 100; margin: 0px 0 50px 0; text-shadow: 0 1px 0 #fff; }\n      p { color: rgba(0, 0, 0, 0.5); margin: 20px 0; line-height: 1.6; }\n\n      ul { list-style: none; margin: 25px 0; padding: 0; }\n      li { display: table-cell; font-weight: bold; width: 1%; }\n\n      .logo { display: inline-block; margin-top: 35px; }\n      .logo-img-2x { display: none; }\n      @media\n      only screen and (-webkit-min-device-pixel-ratio: 2),\n      only screen and (   min--moz-device-pixel-ratio: 2),\n      only screen and (     -o-min-device-pixel-ratio: 2/1),\n      only screen and (        min-device-pixel-ratio: 2),\n      only screen and (                min-resolution: 192dpi),\n      only screen and (                min-resolution: 2dppx) {\n        .logo-img-1x { display: none; }\n        .logo-img-2x { display: inline-block; }\n      }\n\n      #suggestions {\n        margin-top: 35px;\n        color: #ccc;\n      }\n      #suggestions a {\n        color: #666666;\n        font-weight: 200;\n        font-size: 14px;\n        margin: 0 10px;\n      }\n\n    </style>\n  </head>\n  <body>\n\n    <div class=\"container\">\n\n      <h1>404</h1>\n      <p><strong>There isn't a GitHub Pages site here.</strong></p>\n\n      <p>\n        If you're trying to publish one,\n        <a href=\"https://help.github.com/pages/\">read the full documentation</a>\n        to learn how to set up <strong>GitHub Pages</strong>\n        for your repository, organization, or user account.\n      </p>\n\n      <div id=\"suggestions\">\n        <a href=\"https://githubstatus.com\">GitHub Status</a> &mdash;\n        <a href=\"https://twitter.com/githubstatus\">@githubstatus</a>\n      </div>\n\n      <a href=\"/\" class=\"logo logo-img-1x\">\n        <img width=\"32\" height=\"32\" title=\"\" alt=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFMTZCRDY3REIzRjAxMUUyQUQzREIxQzRENUFFNUM5NiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFMTZCRDY3RUIzRjAxMUUyQUQzREIxQzRENUFFNUM5NiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkUxNkJENjdCQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUxNkJENjdDQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+SM9MCAAAA+5JREFUeNrEV11Ik1EY3s4+ddOp29Q5b0opCgKFsoKoi5Kg6CIhuwi6zLJLoYLopq4qsKKgi4i6CYIoU/q5iDAKs6syoS76IRWtyJ+p7cdt7sf1PGOD+e0c3dygAx/67ZzzPM95/877GYdHRg3ZjMXFxepQKNS6sLCwJxqNNuFpiMfjVs4ZjUa/pmmjeD6VlJS8NpvNT4QQ7mxwjSsJiEQim/1+/9lgMHgIr5ohuxG1WCw9Vqv1clFR0dCqBODElV6v90ogEDjGdYbVjXhpaendioqK07CIR7ZAqE49PT09BPL2PMgTByQGsYiZlQD4uMXtdr+JxWINhgINYhGT2MsKgMrm2dnZXgRXhaHAg5jEJodUAHxux4LudHJE9RdEdA+i3Juz7bGHe4mhE9FNrgwBCLirMFV9Okh5eflFh8PR5nK5nDabrR2BNJlKO0T35+Li4n4+/J+/JQCxhmu5h3uJoXNHPbmWZAHMshWB8l5/ipqammaAf0zPDDx1ONV3vurdidqwAQL+pEc8sLcAe1CCvQ3YHxIW8Pl85xSWNC1hADDIv0rIE/o4J0k3kww4xSlwIhcq3EFFOm7KN/hUGOQkt0CFa5WpNJlMvxBEz/IVQAxg/ZRZl9wiHA63yDYieM7DnLP5CiAGsC7I5sgtYKJGWe2A8seFqgFJrJjEPY1Cn3pJ8/9W1e5VWsFDTEmFrBcoDhZJEQkXuhICMyKpjhahqN21hRYATKfUOlDmkygrR4o4C0VOLGJKrOITKB4jijzdXygBKixyC5TDQdnk/Pz8qRw6oOWGlsTKGOQW6OH6FBWsyePxdOXLTgxiyebILZCjz+GLgMIKnXNzc49YMlcRdHXcSwxFVgTInQhC9G33UhNoJLuqq6t345p9y3eUy8OTk5PjAHuI9uo4b07FBaOhsu0A4Unc+T1TU1Nj3KsSSE5yJ65jqF2DDd8QqWYmAZrIM2VlZTdnZmb6AbpdV9V6ec9znf5Q7HjYumdRE0JOp3MjitO4SFa+cZz8Umqe3TCbSLvdfkR/kWDdNQl5InuTcysOcpFT35ZrbBxx4p3JAHlZVVW1D/634VRt+FvLBgK/v5LV9WS+10xMTEwtRw7XvqOL+e2Q8V3AYIOIAXQ26/heWVnZCVfcyKHg2CBgTpmPmjYM8l24GyaUHyaIh7XwfR9ErE8qHoDfn2LTNAVC0HX6MFcBIP8Bi+6F6cdW/DICkANRfx99fEYFQ7Nph5i/uQiA214gno7K+guhaiKg9gC62+M8eR7XsBsYJ4ilam60Fb7r7uAj8wFyuwM1oIOWgfmDy6RXEEQzJMPe23DXrVS7rtyD3Df8z/FPgAEAzWU5Ku59ZAUAAAAASUVORK5CYII=\">\n      </a>\n\n      <a href=\"/\" class=\"logo logo-img-2x\">\n        <img width=\"32\" height=\"32\" title=\"\" alt=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpEQUM1QkUxRUI0MUMxMUUyQUQzREIxQzRENUFFNUM5NiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpEQUM1QkUxRkI0MUMxMUUyQUQzREIxQzRENUFFNUM5NiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkUxNkJENjdGQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUxNkJENjgwQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+hfPRaQAAB6lJREFUeNrsW2mM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\">\n      </a>\n    </div>\n  </body>\n</html>\n",
+                    "server_hash": -984717283,
+                    "location": "/",
+                    "components": {
+                        "GitHub Pages": {
+                            "categories": [
+                                "PaaS"
+                            ]
+                        },
+                        "Varnish": {
+                            "categories": [
+                                "Caching"
+                            ]
+                        },
+                        "Fastly": {
+                            "categories": [
+                                "CDN"
+                            ]
+                        }
+                    },
+                    "securitytxt_hash": null,
+                    "server": "GitHub.com",
+                    "sitemap": null,
+                    "html_hash": 1307457399
+                },
+                "os": null,
+                "transport": "tcp",
+                "timestamp": "2025-10-23T05:33:39.829955",
+                "isp": "Fastly, Inc.",
+                "cpe23": [
+                    "cpe:2.3:a:fastly:fastly",
+                    "cpe:2.3:a:varnish-software:varnish_cache"
+                ],
+                "cpe": [
+                    "cpe:/a:fastly:fastly",
+                    "cpe:/a:varnish-software:varnish_cache"
+                ],
+                "_shodan": {
+                    "region": "na",
+                    "module": "http",
+                    "ptr": true,
+                    "options": {},
+                    "id": "75659ac0-b748-45ed-bb2c-4ffe9d5095d3",
+                    "crawler": "18489e9a79f699db3cf7c9598eab3dd97489fa36"
+                },
+                "hostnames": [
+                    "cdn-185-199-111-153.github.com"
+                ],
+                "location": {
+                    "city": "San Francisco",
+                    "region_code": "CA",
+                    "area_code": null,
+                    "longitude": -122.3971,
+                    "latitude": 37.7621,
+                    "country_code": "US",
+                    "country_name": "United States"
+                },
+                "ip": 3116855193,
+                "domains": [
+                    "github.com"
+                ],
+                "org": "GitHub, Inc.",
+                "data": "HTTP/1.1 404 Not Found\r\nConnection: keep-alive\r\nContent-Length: 9115\r\nServer: GitHub.com\r\nContent-Type: text/html; charset=utf-8\r\nETag: \"6892628f-239b\"\r\nContent-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'\r\nX-GitHub-Request-Id: C221:F28F3:874D01:8A4E62:68F9BE2F\r\nAccept-Ranges: bytes\r\nAge: 0\r\nDate: Thu, 23 Oct 2025 05:33:39 GMT\r\nVia: 1.1 varnish\r\nX-Served-By: cache-pao-kpao1770020-PAO\r\nX-Cache: MISS\r\nX-Cache-Hits: 0\r\nX-Timer: S1761197620.517092,VS0,VE97\r\nVary: Accept-Encoding\r\nX-Fastly-Request-ID: 41389f09824a8f0b02198c5db6aff78c1d75f00a\r\n\r\n",
+                "port": 80,
+                "opts": {},
+                "ip_str": "185.199.111.153"
+            },
+            {
+                "hash": -1999510676,
+                "asn": "AS54113",
+                "http": {
+                    "status": 404,
+                    "robots_hash": null,
+                    "redirects": [],
+                    "title_hash": -14312009,
+                    "securitytxt": null,
+                    "title": "Site not found &middot; GitHub Pages",
+                    "sitemap_hash": null,
+                    "waf": "Fastly (Fastly CDN)",
+                    "robots": null,
+                    "dom_hash": 1042758530,
+                    "headers_hash": 72900919,
+                    "host": "185.199.111.153",
+                    "html": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\">\n    <meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'\">\n    <title>Site not found &middot; GitHub Pages</title>\n    <style type=\"text/css\" media=\"screen\">\n      body {\n        background-color: #f1f1f1;\n        margin: 0;\n        font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n      }\n\n      .container { margin: 50px auto 40px auto; width: 600px; text-align: center; }\n\n      a { color: #4183c4; text-decoration: none; }\n      a:hover { text-decoration: underline; }\n\n      h1 { width: 800px; position:relative; left: -100px; letter-spacing: -1px; line-height: 60px; font-size: 60px; font-weight: 100; margin: 0px 0 50px 0; text-shadow: 0 1px 0 #fff; }\n      p { color: rgba(0, 0, 0, 0.5); margin: 20px 0; line-height: 1.6; }\n\n      ul { list-style: none; margin: 25px 0; padding: 0; }\n      li { display: table-cell; font-weight: bold; width: 1%; }\n\n      .logo { display: inline-block; margin-top: 35px; }\n      .logo-img-2x { display: none; }\n      @media\n      only screen and (-webkit-min-device-pixel-ratio: 2),\n      only screen and (   min--moz-device-pixel-ratio: 2),\n      only screen and (     -o-min-device-pixel-ratio: 2/1),\n      only screen and (        min-device-pixel-ratio: 2),\n      only screen and (                min-resolution: 192dpi),\n      only screen and (                min-resolution: 2dppx) {\n        .logo-img-1x { display: none; }\n        .logo-img-2x { display: inline-block; }\n      }\n\n      #suggestions {\n        margin-top: 35px;\n        color: #ccc;\n      }\n      #suggestions a {\n        color: #666666;\n        font-weight: 200;\n        font-size: 14px;\n        margin: 0 10px;\n      }\n\n    </style>\n  </head>\n  <body>\n\n    <div class=\"container\">\n\n      <h1>404</h1>\n      <p><strong>There isn't a GitHub Pages site here.</strong></p>\n\n      <p>\n        If you're trying to publish one,\n        <a href=\"https://help.github.com/pages/\">read the full documentation</a>\n        to learn how to set up <strong>GitHub Pages</strong>\n        for your repository, organization, or user account.\n      </p>\n\n      <div id=\"suggestions\">\n        <a href=\"https://githubstatus.com\">GitHub Status</a> &mdash;\n        <a href=\"https://twitter.com/githubstatus\">@githubstatus</a>\n      </div>\n\n      <a href=\"/\" class=\"logo logo-img-1x\">\n        <img width=\"32\" height=\"32\" title=\"\" alt=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFMTZCRDY3REIzRjAxMUUyQUQzREIxQzRENUFFNUM5NiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFMTZCRDY3RUIzRjAxMUUyQUQzREIxQzRENUFFNUM5NiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkUxNkJENjdCQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUxNkJENjdDQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+SM9MCAAAA+5JREFUeNrEV11Ik1EY3s4+ddOp29Q5b0opCgKFsoKoi5Kg6CIhuwi6zLJLoYLopq4qsKKgi4i6CYIoU/q5iDAKs6syoS76IRWtyJ+p7cdt7sf1PGOD+e0c3dygAx/67ZzzPM95/877GYdHRg3ZjMXFxepQKNS6sLCwJxqNNuFpiMfjVs4ZjUa/pmmjeD6VlJS8NpvNT4QQ7mxwjSsJiEQim/1+/9lgMHgIr5ohuxG1WCw9Vqv1clFR0dCqBODElV6v90ogEDjGdYbVjXhpaendioqK07CIR7ZAqE49PT09BPL2PMgTByQGsYiZlQD4uMXtdr+JxWINhgINYhGT2MsKgMrm2dnZXgRXhaHAg5jEJodUAHxux4LudHJE9RdEdA+i3Juz7bGHe4mhE9FNrgwBCLirMFV9Okh5eflFh8PR5nK5nDabrR2BNJlKO0T35+Li4n4+/J+/JQCxhmu5h3uJoXNHPbmWZAHMshWB8l5/ipqammaAf0zPDDx1ONV3vurdidqwAQL+pEc8sLcAe1CCvQ3YHxIW8Pl85xSWNC1hADDIv0rIE/o4J0k3kww4xSlwIhcq3EFFOm7KN/hUGOQkt0CFa5WpNJlMvxBEz/IVQAxg/ZRZl9wiHA63yDYieM7DnLP5CiAGsC7I5sgtYKJGWe2A8seFqgFJrJjEPY1Cn3pJ8/9W1e5VWsFDTEmFrBcoDhZJEQkXuhICMyKpjhahqN21hRYATKfUOlDmkygrR4o4C0VOLGJKrOITKB4jijzdXygBKixyC5TDQdnk/Pz8qRw6oOWGlsTKGOQW6OH6FBWsyePxdOXLTgxiyebILZCjz+GLgMIKnXNzc49YMlcRdHXcSwxFVgTInQhC9G33UhNoJLuqq6t345p9y3eUy8OTk5PjAHuI9uo4b07FBaOhsu0A4Unc+T1TU1Nj3KsSSE5yJ65jqF2DDd8QqWYmAZrIM2VlZTdnZmb6AbpdV9V6ec9znf5Q7HjYumdRE0JOp3MjitO4SFa+cZz8Umqe3TCbSLvdfkR/kWDdNQl5InuTcysOcpFT35ZrbBxx4p3JAHlZVVW1D/634VRt+FvLBgK/v5LV9WS+10xMTEwtRw7XvqOL+e2Q8V3AYIOIAXQ26/heWVnZCVfcyKHg2CBgTpmPmjYM8l24GyaUHyaIh7XwfR9ErE8qHoDfn2LTNAVC0HX6MFcBIP8Bi+6F6cdW/DICkANRfx99fEYFQ7Nph5i/uQiA214gno7K+guhaiKg9gC62+M8eR7XsBsYJ4ilam60Fb7r7uAj8wFyuwM1oIOWgfmDy6RXEEQzJMPe23DXrVS7rtyD3Df8z/FPgAEAzWU5Ku59ZAUAAAAASUVORK5CYII=\">\n      </a>\n\n      <a href=\"/\" class=\"logo logo-img-2x\">\n        <img width=\"32\" height=\"32\" title=\"\" alt=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpEQUM1QkUxRUI0MUMxMUUyQUQzREIxQzRENUFFNUM5NiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpEQUM1QkUxRkI0MUMxMUUyQUQzREIxQzRENUFFNUM5NiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkUxNkJENjdGQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUxNkJENjgwQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+hfPRaQAAB6lJREFUeNrsW2mM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\">\n      </a>\n    </div>\n  </body>\n</html>\n",
+                    "server_hash": -984717283,
+                    "location": "/",
+                    "components": {
+                        "GitHub Pages": {
+                            "categories": [
+                                "PaaS"
+                            ]
+                        },
+                        "Varnish": {
+                            "categories": [
+                                "Caching"
+                            ]
+                        },
+                        "Fastly": {
+                            "categories": [
+                                "CDN"
+                            ]
+                        }
+                    },
+                    "securitytxt_hash": null,
+                    "server": "GitHub.com",
+                    "sitemap": null,
+                    "html_hash": 1307457399
+                },
+                "os": null,
+                "transport": "tcp",
+                "timestamp": "2025-10-23T15:16:11.168448",
+                "isp": "Fastly, Inc.",
+                "cpe23": [
+                    "cpe:2.3:a:fastly:fastly",
+                    "cpe:2.3:a:varnish-software:varnish_cache"
+                ],
+                "cpe": [
+                    "cpe:/a:fastly:fastly",
+                    "cpe:/a:varnish-software:varnish_cache"
+                ],
+                "_shodan": {
+                    "region": "na",
+                    "crawler": "3c3eeab6cee71e35ad50f5bc07c1d210cc96a499",
+                    "options": {},
+                    "module": "https",
+                    "id": "af6e67e2-6c61-4f00-b5fc-edc875516c48"
+                },
+                "ssl": {
+                    "chain_sha256": [
+                        "7d1122ea969852341e8dd92bcc0c7ecc009630d14da734d7ca42d5b54a2b2097",
+                        "7fa4ff68ec04a99d7528d5085f94907f4d1dd1c5381bacdc832ed5c960214676",
+                        "68b9c761219a5b1f0131784474665db61bbdb109e00f05ca9f74244ee5f5f52b"
+                    ],
+                    "jarm": "29d3fd00029d29d00041d41d00041d6b5eefa2404a56c2ced79a0d16afe36c",
+                    "tlsext": [
+                        {
+                            "id": 43,
+                            "name": "supported_versions"
+                        },
+                        {
+                            "id": 51,
+                            "name": "key_share"
+                        },
+                        {
+                            "id": 0,
+                            "name": "server_name"
+                        },
+                        {
+                            "id": 5,
+                            "name": "status_request"
+                        }
+                    ],
+                    "chain": [
+                        "-----BEGIN CERTIFICATE-----\nMIIGhTCCBW2gAwIBAgIRAJB3NEFHMW75lZl2eur98bkwDQYJKoZIhvcNAQELBQAw\ngY8xCzAJBgNVBAYTAkdCMRswGQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAO\nBgNVBAcTB1NhbGZvcmQxGDAWBgNVBAoTD1NlY3RpZ28gTGltaXRlZDE3MDUGA1UE\nAxMuU2VjdGlnbyBSU0EgRG9tYWluIFZhbGlkYXRpb24gU2VjdXJlIFNlcnZlciBD\nQTAeFw0yNTAzMDcwMDAwMDBaFw0yNjAzMDcyMzU5NTlaMBYxFDASBgNVBAMMCyou\nZ2l0aHViLmlvMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxKQLElVm\nJYKnZ9dmKMWrb4fy4BWFm658EQemS4hJgrt+1NFpL2tGVaFupVyV3vmKorCX3zej\nc7+gH8Ugpemmj9r5tk1NZ0SXXALTjvT2i03oSqjwCzkn+R1o0TYg+G7PyQ5pE18A\nE+K3VUcpch1f5RyBTEvE4+HUg4/6OpAIYFVznJ3yk8a+bo1i/HBp2MbtPzssSlT8\nmPLY76SETtKdwgIdY91MkTiJd1x0KJDM2GPKM7pNTc81NMSw6WBzsxg4PFbR+BCY\n82/sYu8iMy/AdYcUz72hh2DGXnVypzzV/LLgJ/VAP5m+md0lVH5KIG/cduDrajlo\nLQ4LKJktO4VmwQIDAQABo4IDUjCCA04wHwYDVR0jBBgwFoAUjYxexFStiuF36Zv5\nmwXhuAGNYeEwHQYDVR0OBBYEFBLwftAxb+SvNbWJ+0LZ7bcLk80EMA4GA1UdDwEB\n/wQEAwIFoDAMBgNVHRMBAf8EAjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEF\nBQcDAjBJBgNVHSAEQjBAMDQGCysGAQQBsjEBAgIHMCUwIwYIKwYBBQUHAgEWF2h0\ndHBzOi8vc2VjdGlnby5jb20vQ1BTMAgGBmeBDAECATCBhAYIKwYBBQUHAQEEeDB2\nME8GCCsGAQUFBzAChkNodHRwOi8vY3J0LnNlY3RpZ28uY29tL1NlY3RpZ29SU0FE\nb21haW5WYWxpZGF0aW9uU2VjdXJlU2VydmVyQ0EuY3J0MCMGCCsGAQUFBzABhhdo\ndHRwOi8vb2NzcC5zZWN0aWdvLmNvbTCCAX4GCisGAQQB1nkCBAIEggFuBIIBagFo\nAHYAlpdkv1VYl633Q4doNwhCd+nwOtX2pPM2bkakPw/KqcYAAAGVbeysdQAABAMA\nRzBFAiEA+YIgsAqb2cqQVlF4JP2ERIVCH3RXdB7DjIPc6Ch5aK4CIHjqUoV7F5Mk\nfcIQcmdn7Z5UR8nYtPA2OLvYc3mCFcLuAHcAGYbUxyiqb/66A294Kk0BkarOLXIx\nD67OXXBBLSVMx9QAAAGVbeysDgAABAMASDBGAiEAjryAbXlHsXj/v4f7CWXJzDUX\nSUuvA5kRH3doh4WPUQcCIQC+nojCqhCn/ZupbnI50O1T3FSKBQu/LOZ33fApzLJW\nhQB1AMs49xWJfIShRF9bwd37yW7ymlnNRwppBYWwyxTDFFjnAAABlW3srDcAAAQD\nAEYwRAIgS98L1D2W8nzV3tIQ0R4UJWxwxb7I/TT6e9ly0nA0QsACIFpl7s/WA1Qm\nz1Vm8ZtihoNFubO/AiiaVGaeDQiznHFCMHsGA1UdEQR0MHKCCyouZ2l0aHViLmlv\nggwqLmdpdGh1Yi5jb22CFyouZ2l0aHVidXNlcmNvbnRlbnQuY29tggpnaXRodWIu\nY29tgglnaXRodWIuaW+CFWdpdGh1YnVzZXJjb250ZW50LmNvbYIOd3d3LmdpdGh1\nYi5jb20wDQYJKoZIhvcNAQELBQADggEBAHksjTVCptW9CtbBXu+7J2cDDmKRz/EA\nkUyONuojOnKoI3d2f5DQDkqzu/gSj6B28YO3a4EYFktvwq3KnXAu9KzSM1ehlhtA\nlxlvjjGUgXvux7DjnBH40ItKiE723opeWVbm2WExdRPSckm/CDwshz2U3Sl3M3Wt\nv0xPuZJrg1tMIL58RqrS5PpFlAIIlEUC6dr+xVQrwLNcYXVVgvZsRSX/YbrzboLM\ngWhuDSQPcaeDGHcy7NxRZHmlpHz+/Ot067VuxjGqm9veKNGZMUdroS+ocxAJBXv3\nZ1NCCowvpZazNxKccQg7izYwd6HL70WMxCWFU0e70uw9KZqteG7SVcQ=\n-----END CERTIFICATE-----\n",
+                        "-----BEGIN CERTIFICATE-----\nMIIGEzCCA/ugAwIBAgIQfVtRJrR2uhHbdBYLvFMNpzANBgkqhkiG9w0BAQwFADCB\niDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCk5ldyBKZXJzZXkxFDASBgNVBAcTC0pl\ncnNleSBDaXR5MR4wHAYDVQQKExVUaGUgVVNFUlRSVVNUIE5ldHdvcmsxLjAsBgNV\nBAMTJVVTRVJUcnVzdCBSU0EgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwHhcNMTgx\nMTAyMDAwMDAwWhcNMzAxMjMxMjM1OTU5WjCBjzELMAkGA1UEBhMCR0IxGzAZBgNV\nBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4GA1UEBxMHU2FsZm9yZDEYMBYGA1UE\nChMPU2VjdGlnbyBMaW1pdGVkMTcwNQYDVQQDEy5TZWN0aWdvIFJTQSBEb21haW4g\nVmFsaWRhdGlvbiBTZWN1cmUgU2VydmVyIENBMIIBIjANBgkqhkiG9w0BAQEFAAOC\nAQ8AMIIBCgKCAQEA1nMz1tc8INAA0hdFuNY+B6I/x0HuMjDJsGz99J/LEpgPLT+N\nTQEMgg8Xf2Iu6bhIefsWg06t1zIlk7cHv7lQP6lMw0Aq6Tn/2YHKHxYyQdqAJrkj\neocgHuP/IJo8lURvh3UGkEC0MpMWCRAIIz7S3YcPb11RFGoKacVPAXJpz9OTTG0E\noKMbgn6xmrntxZ7FN3ifmgg0+1YuWMQJDgZkW7w33PGfKGioVrCSo1yfu4iYCBsk\nHaswha6vsC6eep3BwEIc4gLw6uBK0u+QDrTBQBbwb4VCSmT3pDCg/r8uoydajotY\nuK3DGReEY+1vVv2Dy2A0xHS+5p3b4eTlygxfFQIDAQABo4IBbjCCAWowHwYDVR0j\nBBgwFoAUU3m/WqorSs9UgOHYm8Cd8rIDZsswHQYDVR0OBBYEFI2MXsRUrYrhd+mb\n+ZsF4bgBjWHhMA4GA1UdDwEB/wQEAwIBhjASBgNVHRMBAf8ECDAGAQH/AgEAMB0G\nA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAbBgNVHSAEFDASMAYGBFUdIAAw\nCAYGZ4EMAQIBMFAGA1UdHwRJMEcwRaBDoEGGP2h0dHA6Ly9jcmwudXNlcnRydXN0\nLmNvbS9VU0VSVHJ1c3RSU0FDZXJ0aWZpY2F0aW9uQXV0aG9yaXR5LmNybDB2Bggr\nBgEFBQcBAQRqMGgwPwYIKwYBBQUHMAKGM2h0dHA6Ly9jcnQudXNlcnRydXN0LmNv\nbS9VU0VSVHJ1c3RSU0FBZGRUcnVzdENBLmNydDAlBggrBgEFBQcwAYYZaHR0cDov\nL29jc3AudXNlcnRydXN0LmNvbTANBgkqhkiG9w0BAQwFAAOCAgEAMr9hvQ5Iw0/H\nukdN+Jx4GQHcEx2Ab/zDcLRSmjEzmldS+zGea6TvVKqJjUAXaPgREHzSyrHxVYbH\n7rM2kYb2OVG/Rr8PoLq0935JxCo2F57kaDl6r5ROVm+yezu/Coa9zcV3HAO4OLGi\nH19+24rcRki2aArPsrW04jTkZ6k4Zgle0rj8nSg6F0AnwnJOKf0hPHzPE/uWLMUx\nRP0T7dWbqWlod3zu4f+k+TY4CFM5ooQ0nBnzvg6s1SQ36yOoeNDT5++SR2RiOSLv\nxvcRviKFxmZEJCaOEDKNyJOuB56DPi/Z+fVGjmO+wea03KbNIaiGCpXZLoUmGv38\nsbZXQm2V0TP2ORQGgkE49Y9Y3IBbpNV9lXj9p5v//cWoaasm56ekBYdbqbe4oyAL\nl6lFhd2zi+WJN44pDfwGF/Y4QA5C5BIG+3vzxhFoYt/jmPQT2BVPi7Fp2RBgvGQq\n6jG35LWjOhSbJuMLe/0CjraZwTiXWTb2qHSihrZe68Zk6s+go/lunrotEbaGmAhY\nLcmsJWTyXnW0OMGuf1pGg+pRyrbxmRE1a6Vqe8YAsOf4vmSyrcjC8azjUeqkk+B5\nyOGBQMkKW+ESPMFgKuOXwIlCypTPRpgSabuY0MLTDXJLR27lk8QyKGOHQ+SwMj4K\n00u/I5sUKUErmgQfky3xxzlIPK1aEn8=\n-----END CERTIFICATE-----\n",
+                        "-----BEGIN CERTIFICATE-----\nMIIFgTCCBGmgAwIBAgIQOXJEOvkit1HX02wQ3TE1lTANBgkqhkiG9w0BAQwFADB7\nMQswCQYDVQQGEwJHQjEbMBkGA1UECAwSR3JlYXRlciBNYW5jaGVzdGVyMRAwDgYD\nVQQHDAdTYWxmb3JkMRowGAYDVQQKDBFDb21vZG8gQ0EgTGltaXRlZDEhMB8GA1UE\nAwwYQUFBIENlcnRpZmljYXRlIFNlcnZpY2VzMB4XDTE5MDMxMjAwMDAwMFoXDTI4\nMTIzMTIzNTk1OVowgYgxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpOZXcgSmVyc2V5\nMRQwEgYDVQQHEwtKZXJzZXkgQ2l0eTEeMBwGA1UEChMVVGhlIFVTRVJUUlVTVCBO\nZXR3b3JrMS4wLAYDVQQDEyVVU0VSVHJ1c3QgUlNBIENlcnRpZmljYXRpb24gQXV0\naG9yaXR5MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAgBJlFzYOw9sI\ns9CsVw127c0n00ytUINh4qogTQktZAnczomfzD2p7PbPwdzx07HWezcoEStH2jnG\nvDoZtF+mvX2do2NCtnbyqTsrkfjib9DsFiCQCT7i6HTJGLSR1GJk23+jBvGIGGqQ\nIjy8/hPwhxR79uQfjtTkUcYRZ0YIUcuGFFQ/vDP+fmyc/xadGL1RjjWmp2bIcmfb\nIWax1Jt4A8BQOujM8Ny8nkz+rwWWNR9XWrf/zvk9tyy29lTdyOcSOk2uTIq3XJq0\ntyA9yn8iNK5+O2hmAUTnAU5GU5szYPeUvlM3kHND8zLDU+/bqv50TmnHa4xgk97E\nxwzf4TKuzJM7UXiVZ4vuPVb+DNBpDxsP8yUmazNt925H+nND5X4OpWaxKXwyhGNV\nicQNwZNUMBkTrNN9N6frXTpsNVzbQdcS2qlJC9/YgIoJk2KOtWbPJYjNhLixP6Q5\nD9kCnusSTJV882sFqV4Wg8y4Z+LoE53MW4LTTLPtW//e5XOsIzstAL81VXQJSdhJ\nWBp/kjbmUZIO8yZ9HE0XvMnsQybQv0FfQKlERPSZ51eHnlAfV1SoPv10Yy+xUGUJ\n5lhCLkMaTLTwJUdZ+gQek9QmRkpQgbLevni3/GcV4clXhB4PY9bpYrrWX1Uu6lzG\nKAgEJTm4Diup8kyXHAc/DVL17e8vgg8CAwEAAaOB8jCB7zAfBgNVHSMEGDAWgBSg\nEQojPpbxB+zirynvgqV/0DCktDAdBgNVHQ4EFgQUU3m/WqorSs9UgOHYm8Cd8rID\nZsswDgYDVR0PAQH/BAQDAgGGMA8GA1UdEwEB/wQFMAMBAf8wEQYDVR0gBAowCDAG\nBgRVHSAAMEMGA1UdHwQ8MDowOKA2oDSGMmh0dHA6Ly9jcmwuY29tb2RvY2EuY29t\nL0FBQUNlcnRpZmljYXRlU2VydmljZXMuY3JsMDQGCCsGAQUFBwEBBCgwJjAkBggr\nBgEFBQcwAYYYaHR0cDovL29jc3AuY29tb2RvY2EuY29tMA0GCSqGSIb3DQEBDAUA\nA4IBAQAYh1HcdCE9nIrgJ7cz0C7M7PDmy14R3iJvm3WOnnL+5Nb+qh+cli3vA0p+\nrvSNb3I8QzvAP+u431yqqcau8vzY7qN7Q/aGNnwU4M309z/+3ri0ivCRlv79Q2R+\n/czSAaF9ffgZGclCKxO/WIu6pKJmBHaIkU4MiRTOok3JMrO66BQavHHxW/BBC5gA\nCiIDEOUMsfnNkjcZ7Tvx5Dq2+UUTJnWvu6rvP3t3O9LEApE9GQDTF1w52z97GA1F\nzZOFli9d31kWTz9RvdVFGD/tSo7oBmF0Ixa1DVBzJ0RHfxBdiSprhTEUxOipakyA\nvGp4z7h/jnZymQyd/teRCBaho1+V\n-----END CERTIFICATE-----\n"
+                    ],
+                    "versions": [
+                        "-TLSv1",
+                        "-SSLv2",
+                        "-SSLv3",
+                        "-TLSv1.1",
+                        "TLSv1.2",
+                        "TLSv1.3"
+                    ],
+                    "acceptable_cas": [],
+                    "alpn": [],
+                    "cert": {
+                        "sig_alg": "sha256WithRSAEncryption",
+                        "issued": "20250307000000Z",
+                        "expires": "20260307235959Z",
+                        "pubkey": {
+                            "bits": 2048,
+                            "type": "rsa"
+                        },
+                        "version": 2,
+                        "extensions": [
+                            {
+                                "data": "0\\x16\\x80\\x14\\x8d\\x8c^\\xc4T\\xad\\x8a\\xe1w\\xe9\\x9b\\xf9\\x9b\\x05\\xe1\\xb8\\x01\\x8da\\xe1",
+                                "name": "authorityKeyIdentifier"
+                            },
+                            {
+                                "data": "\\x04\\x14\\x12\\xf0~\\xd01o\\xe4\\xaf5\\xb5\\x89\\xfbB\\xd9\\xed\\xb7\\x0b\\x93\\xcd\\x04",
+                                "name": "subjectKeyIdentifier"
+                            },
+                            {
+                                "critical": true,
+                                "data": "\\x03\\x02\\x05\\xa0",
+                                "name": "keyUsage"
+                            },
+                            {
+                                "critical": true,
+                                "data": "0\\x00",
+                                "name": "basicConstraints"
+                            },
+                            {
+                                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                                "name": "extendedKeyUsage"
+                            },
+                            {
+                                "data": "0@04\\x06\\x0b+\\x06\\x01\\x04\\x01\\xb21\\x01\\x02\\x02\\x070%0#\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x17https://sectigo.com/CPS0\\x08\\x06\\x06g\\x81\\x0c\\x01\\x02\\x01",
+                                "name": "certificatePolicies"
+                            },
+                            {
+                                "data": "0v0O\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86Chttp://crt.sectigo.com/SectigoRSADomainValidationSecureServerCA.crt0#\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x17http://ocsp.sectigo.com",
+                                "name": "authorityInfoAccess"
+                            },
+                            {
+                                "data": "\\x04\\x82\\x01j\\x01h\\x00v\\x00\\x96\\x97d\\xbfUX\\x97\\xad\\xf7C\\x87h7\\x08Bw\\xe9\\xf0:\\xd5\\xf6\\xa4\\xf36nF\\xa4?\\x0f\\xca\\xa9\\xc6\\x00\\x00\\x01\\x95m\\xec\\xacu\\x00\\x00\\x04\\x03\\x00G0E\\x02!\\x00\\xf9\\x82 \\xb0\\n\\x9b\\xd9\\xca\\x90VQx$\\xfd\\x84D\\x85B\\x1ftWt\\x1e\\xc3\\x8c\\x83\\xdc\\xe8(yh\\xae\\x02 x\\xeaR\\x85{\\x17\\x93$}\\xc2\\x10rgg\\xed\\x9eTG\\xc9\\xd8\\xb4\\xf068\\xbb\\xd8sy\\x82\\x15\\xc2\\xee\\x00w\\x00\\x19\\x86\\xd4\\xc7(\\xaao\\xfe\\xba\\x03ox*M\\x01\\x91\\xaa\\xce-r1\\x0f\\xae\\xce]pA-%L\\xc7\\xd4\\x00\\x00\\x01\\x95m\\xec\\xac\\x0e\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\x8e\\xbc\\x80myG\\xb1x\\xff\\xbf\\x87\\xfb\\te\\xc9\\xcc5\\x17IK\\xaf\\x03\\x99\\x11\\x1fwh\\x87\\x85\\x8fQ\\x07\\x02!\\x00\\xbe\\x9e\\x88\\xc2\\xaa\\x10\\xa7\\xfd\\x9b\\xa9nr9\\xd0\\xedS\\xdcT\\x8a\\x05\\x0b\\xbf,\\xe6w\\xdd\\xf0)\\xcc\\xb2V\\x85\\x00u\\x00\\xcb8\\xf7\\x15\\x89|\\x84\\xa1D_[\\xc1\\xdd\\xfb\\xc9n\\xf2\\x9aY\\xcdG\\ni\\x05\\x85\\xb0\\xcb\\x14\\xc3\\x14X\\xe7\\x00\\x00\\x01\\x95m\\xec\\xac7\\x00\\x00\\x04\\x03\\x00F0D\\x02 K\\xdf\\x0b\\xd4=\\x96\\xf2|\\xd5\\xde\\xd2\\x10\\xd1\\x1e\\x14%lp\\xc5\\xbe\\xc8\\xfd4\\xfa{\\xd9r\\xd2p4B\\xc0\\x02 Ze\\xee\\xcf\\xd6\\x03T&\\xcfUf\\xf1\\x9bb\\x86\\x83E\\xb9\\xb3\\xbf\\x02(\\x9aTf\\x9e\\r\\x08\\xb3\\x9cqB",
+                                "name": "ct_precert_scts"
+                            },
+                            {
+                                "data": "0r\\x82\\x0b*.github.io\\x82\\x0c*.github.com\\x82\\x17*.githubusercontent.com\\x82\\ngithub.com\\x82\\tgithub.io\\x82\\x15githubusercontent.com\\x82\\x0ewww.github.com",
+                                "name": "subjectAltName"
+                            }
+                        ],
+                        "fingerprint": {
+                            "sha256": "7d1122ea969852341e8dd92bcc0c7ecc009630d14da734d7ca42d5b54a2b2097",
+                            "sha1": "8cff59e58ec4fa76feaf2dc5c0d4136a772df991"
+                        },
+                        "serial": 192027774576356680626796118758030963129,
+                        "issuer": {
+                            "C": "GB",
+                            "ST": "Greater Manchester",
+                            "CN": "Sectigo RSA Domain Validation Secure Server CA",
+                            "O": "Sectigo Limited",
+                            "L": "Salford"
+                        },
+                        "expired": false,
+                        "subject": {
+                            "CN": "*.github.io"
+                        }
+                    },
+                    "cipher": {
+                        "version": "TLSv1.3",
+                        "bits": 128,
+                        "name": "TLS_AES_128_GCM_SHA256"
+                    },
+                    "trust": {
+                        "revoked": false,
+                        "browser": null
+                    },
+                    "handshake_states": [
+                        "before SSL initialization",
+                        "SSLv3/TLS write client hello",
+                        "SSLv3/TLS read server hello",
+                        "TLSv1.3 read encrypted extensions",
+                        "SSLv3/TLS read server certificate",
+                        "TLSv1.3 read server certificate verify",
+                        "SSLv3/TLS read finished",
+                        "SSLv3/TLS write change cipher spec",
+                        "SSLv3/TLS write finished",
+                        "SSL negotiation finished successfully"
+                    ],
+                    "ja3s": "ca3aa6677ca3f6bd402ddc17f9c07633",
+                    "ocsp": {
+                        "version": "1",
+                        "response_status": "successful",
+                        "responder_id": "8D8C5EC454AD8AE177E99BF99B05E1B8018D61E1",
+                        "cert_status": "good",
+                        "produced_at": "2025-10-20 05:06:32",
+                        "signature_algorithm": "sha256WithRSAEncryption",
+                        "next_update": "2025-10-27 05:06:31",
+                        "this_update": "2025-10-20 05:06:32",
+                        "certificate_id": {
+                            "hash_algorithm": "sha1",
+                            "issuer_name_hash": "430BD20E4F137A1A6C918F24E5DA7E324D4733C8",
+                            "issuer_name_key": "8D8C5EC454AD8AE177E99BF99B05E1B8018D61E1",
+                            "serial_number": "9077344147316EF99599767AEAFDF1B9"
+                        }
+                    }
+                },
+                "hostnames": [
+                    "github.io",
+                    "github.com",
+                    "www.github.com",
+                    "cdn-185-199-111-153.github.com",
+                    "githubusercontent.com"
+                ],
+                "location": {
+                    "city": "San Francisco",
+                    "region_code": "CA",
+                    "area_code": null,
+                    "longitude": -122.3971,
+                    "latitude": 37.7621,
+                    "country_code": "US",
+                    "country_name": "United States"
+                },
+                "ip": 3116855193,
+                "domains": [
+                    "github.io",
+                    "github.com",
+                    "githubusercontent.com"
+                ],
+                "org": "GitHub, Inc.",
+                "data": "HTTP/1.1 404 Not Found\r\nConnection: keep-alive\r\nContent-Length: 9115\r\nServer: GitHub.com\r\nContent-Type: text/html; charset=utf-8\r\nETag: \"68ed3770-239b\"\r\nContent-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'\r\nX-GitHub-Request-Id: CFD7:AA65A:A1B885:B52113:68FA46FA\r\nAccept-Ranges: bytes\r\nAge: 0\r\nDate: Thu, 23 Oct 2025 15:17:14 GMT\r\nVia: 1.1 varnish\r\nX-Served-By: cache-dfw-ktki8620051-DFW\r\nX-Cache: MISS\r\nX-Cache-Hits: 0\r\nX-Timer: S1761232635.692913,VS0,VE40\r\nVary: Accept-Encoding\r\nX-Fastly-Request-ID: f3634b8308af2f8659500ab4fef372e7345eba05\r\n\r\n",
+                "port": 443,
+                "opts": {
+                    "vulns": [],
+                    "heartbleed": "2025/10/23 15:16:22 185.199.111.153:443 - SAFE\n"
+                },
+                "ip_str": "185.199.111.153"
+            }
+        ]
+    },
+    "tls": {
+        "subject": [
+            [
+                [
+                    "commonName",
+                    "*.github.io"
+                ]
+            ]
+        ],
+        "issuer": [
+            [
+                [
+                    "countryName",
+                    "GB"
+                ]
+            ],
+            [
+                [
+                    "stateOrProvinceName",
+                    "Greater Manchester"
+                ]
+            ],
+            [
+                [
+                    "localityName",
+                    "Salford"
+                ]
+            ],
+            [
+                [
+                    "organizationName",
+                    "Sectigo Limited"
+                ]
+            ],
+            [
+                [
+                    "commonName",
+                    "Sectigo RSA Domain Validation Secure Server CA"
+                ]
+            ]
+        ],
+        "valid_from": "Mar  7 00:00:00 2025 GMT",
+        "valid_to": "Mar  7 23:59:59 2026 GMT",
+        "serial_number": "9077344147316EF99599767AEAFDF1B9"
+    },
+    "subdominios": []
+}

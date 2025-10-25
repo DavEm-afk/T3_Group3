@@ -1,0 +1,6 @@
+python-nmap
+scapy
+dnspython
+python-whois
+shodan
+requests
