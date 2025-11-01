@@ -5,7 +5,7 @@ import ssl
 import socket
 import requests
 
-SHODAN_API_KEY = "TuCZGRnUCaBsqm0kQZSphOcezc7pD0Rw"
+SHODAN_API_KEY = "..." #Ingresar tu shodan ApiKey
 
 def dns_lookup(domain):
     print("- Consultando registros DNS...")
@@ -91,4 +91,5 @@ def enumerate_subdomains(domain):
                         subdomains.add(sub.strip())
         return sorted(subdomains)
     except Exception as e:
+
         return {"error": str(e)}
